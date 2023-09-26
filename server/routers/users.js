@@ -82,7 +82,7 @@ router.get('/userExist', async (req, res) => {
         const {password, ...data} = await user.toJSON()
 
         res.send(data)
-        console.log(data)
+        // console.log(data)
     } catch (e) {
         // console.error(e)
         

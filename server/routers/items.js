@@ -44,7 +44,7 @@ router.put('/edit/:id', async (req, res, next) => {
         const data = await Item.findById(id).updateOne({
             $set: {
                 itemID: itemID,
-                name: name,
+                itemName: itemName,
                 status:status,
             }
         })

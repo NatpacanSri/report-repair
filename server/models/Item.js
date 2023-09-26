@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const itemSchema = new mongoose.Schema({
     itemID:String,
-    name:String,
+    itemName:String,
     status:String
 },{timestamps:true});
 
